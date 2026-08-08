@@ -15,10 +15,13 @@ int main(){
 
      }
 
+      printf("your entered element are:")
+
    for(int i = 0;i<5;i++){
 
-    printf("your array elements are: %d ",num[i]);
-
+     printf(" %d",num[i])
+   
    }
 
+    return 0;
 }
